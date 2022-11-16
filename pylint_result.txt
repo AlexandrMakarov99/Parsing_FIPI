@@ -1,0 +1,26 @@
+************* Module main
+main.py:21:0: C0301: Line too long (101/100) (line-too-long)
+main.py:50:0: C0301: Line too long (110/100) (line-too-long)
+main.py:53:0: C0301: Line too long (144/100) (line-too-long)
+main.py:74:1: W0511: todo (fixme)
+main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+main.py:1:0: E0401: Unable to import 'selenium' (import-error)
+main.py:2:0: E0401: Unable to import 'selenium.webdriver.common.by' (import-error)
+main.py:4:0: E0401: Unable to import 'PyPDF2' (import-error)
+main.py:9:15: W0621: Redefining name 'file_path' from outer scope (line 68) (redefined-outer-name)
+main.py:18:4: W0622: Redefining built-in 'bytes' (redefined-builtin)
+main.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:10:4: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+main.py:27:34: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+main.py:30:13: W0621: Redefining name 'file_path' from outer scope (line 68) (redefined-outer-name)
+main.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:34:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+main.py:43:34: C0103: Variable name "fp" doesn't conform to snake_case naming style (invalid-name)
+main.py:53:0: C0103: Constant name "url" doesn't conform to UPPER_CASE naming style (invalid-name)
+main.py:59:0: C0103: Constant name "dir_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+main.py:3:0: C0411: standard import "from base64 import b64decode" should be placed before "from selenium import webdriver" (wrong-import-order)
+main.py:5:0: C0411: standard import "import os" should be placed before "from selenium import webdriver" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 1.75/10 (previous run: 1.75/10, +0.00)
+
